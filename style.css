@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+.image {
+    position: fixed;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    border-radius: 100px;
+    cursor: no-drop;
+}
+
+.name {
+    color:black;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.info {
+    color: rgb(114, 114, 114);
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width:292px){
+    .info{
+        font-size: 10px;
+    }
+}
+
+.linkedin {
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 44vw;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.github {
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 44vw;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.website {
+    position: fixed;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 44vw;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.instagram {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 44vw;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cv {
+    position: fixed;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 44vw;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkedin:hover, .github:hover, .website:hover, .instagram:hover, .cv:hover {
+    animation-name: widthincrease;
+    animation-duration: 0.3s;
+    width: 46vw;
+    height: 64px;
+}
+
+@keyframes widthincrease {
+    0% {
+        width: 40vw;
+        height: 60px;
+    }
+    100% {
+        width: 44.5vw;
+        height: 64px;
+    }
+}
